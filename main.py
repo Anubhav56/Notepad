@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter.messagebox import showinfo
 from tkinter.filedialog import askopenfilename,asksaveasfilename
 import LZW
-import HuffmanCoding
+import huffmanCode
 
 def newFile():
     global file
@@ -69,7 +69,7 @@ def paste():
     textArea.event_generate("<<Paste>>")
 
 def about():
-    showinfo("Notepad","Notepad By Yash Khandelwal")
+    showinfo("Notepad","Notepad")
 
 if __name__ == '__main__':
     root=Tk()
